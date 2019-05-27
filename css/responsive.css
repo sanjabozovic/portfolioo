@@ -1,0 +1,93 @@
+@media screen and (max-width: 768px) {
+  header #logmenu #logo {
+    position: static; }
+  header #logmenu nav {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; }
+    header #logmenu nav a {
+      text-decoration: none;
+      color: #ffac00;
+      font-size: 2.3vw;
+      left: 0px;
+      transition: none;
+      border-radius: 0; }
+      header #logmenu nav a #icon, header #logmenu nav a #icon1, header #logmenu nav a #icon2, header #logmenu nav a #icon3 {
+        display: none; }
+    header #logmenu nav #home, header #logmenu nav #about, header #logmenu nav #gallery, header #logmenu nav #image, header #logmenu nav #contacts {
+      background-color: transparent; }
+      header #logmenu nav #home:hover, header #logmenu nav #about:hover, header #logmenu nav #gallery:hover, header #logmenu nav #image:hover, header #logmenu nav #contacts:hover {
+        background-color: rgba(218, 223, 225, 0.2); }
+  header hgroup {
+    background-color: rgba(250, 250, 250, 0.2);
+    width: 100%;
+    margin-top: 55%;
+    padding-left: 13%; }
+    header hgroup h1 {
+      font-size: 30px; }
+    header hgroup h3 {
+      font-size: 15px; }
+
+  main section {
+    width: 75%; }
+    main section article #pht {
+      display: none; }
+    main section article h1 {
+      font-size: 2.5vw; }
+    main section article #pht1 {
+      display: inline; }
+    main section article p {
+      font-size: 1.6vw; } }
+footer .foot {
+  margin-left: 5%; }
+  footer .foot h2 {
+    font-size: 2.2vw; }
+  footer .foot a, footer .foot p {
+    font-size: 1.8vw; }
+
+@media screen and (max-width: 600px) {
+  header #logmenu {
+    float: right;
+    margin-right: 7%; }
+    header #logmenu nav #image {
+      display: inline; }
+    header #logmenu nav #photos {
+      display: none; }
+  header hgroup {
+    float: left;
+    margin-top: 75%; }
+
+  main section #hidephone {
+    display: none; }
+  main section article p {
+    font-size: 2vw; }
+  main section article h1 {
+    font-size: 3vw; }
+  main section article #hide {
+    display: inline; }
+  main section article #showphone {
+    display: flex;
+    justify-content: space-around; }
+    main section article #showphone .slide {
+      display: none; }
+    main section article #showphone #left, main section article #showphone #right {
+      width: 10%;
+      background-color: #141510;
+      cursor: pointer;
+      border: none;
+      color: white;
+      border-radius: 5px;
+      font-size: 5vw; }
+      main section article #showphone #left:hover, main section article #showphone #right:hover {
+        border: 1px solid #ffac00; }
+  main section article #message input[type=text], main section article #message input[type=email] {
+    height: 25px;
+    font-size: 1.8vw; }
+  main section article #message textarea {
+    font-size: 2vw;
+    width: 97%; }
+  main section article #message button {
+    font-size: 2.3vw; } }
+
+/*# sourceMappingURL=responsive.css.map */
