@@ -1,5 +1,35 @@
+@media screen and (max-width: 992px){
+	header {
+		display: flex;
+		
+		hgroup {
+			margin-top: 52%;
+			width: 100%;
+			align-self: flex-end;
+		}
+	}
+	main {
+		section{
+			#hidephone{
+				#pht{
+						display: none;
+				}
+			}
+			
+			article{
+				border-left: 1px solid #ffac00;
+				border-right: 1px solid #ffac00;
+				border-radius: 5px;
+			}
+		}
+	}
+}
+
 @media screen and (max-width: 768px) {
 	header{
+	
+	display: block;
+	
 		#logmenu{
 		
 			#logo{
@@ -62,6 +92,9 @@
 		
 		width: 75%;
 			article{
+			
+				border: none;
+			
 				#pht {
 					display: none;
 				}
@@ -94,25 +127,81 @@ footer {
 	}
 }
 
+@media screen and (max-width: 650px){
+	header {
+		hgroup {
+			margin-top: 70%;
+		}
+	#logmenu {
+		nav{
+			a{
+				font-size: 2.5vw;
+			}
+		}
+	}
+	}
+	
+	main{
+		section{
+		
+			#hidephone {
+				figure{
+					.hide650{
+						display: none;
+					}
+				}
+			}
+		
+			article{
+				p{
+					font-size: 2vw;
+				}
+				#message{
+					input[type=text], input[type=email]{
+						width: 45%;
+					}
+				}
+			}
+		}
+	}
+	footer {
+		.foot{
+			a, p{
+				font-size: 2.3vw;
+			}
+			h2{
+				font-size: 2.8vw;
+			}
+		}
+	}
+}
+
 @media screen and (max-width: 480px) {
 	header{
 		#logmenu{
 			float: right;
 			margin-right: 7%;
+			width: 18%;
 			
 			nav{
+			
+				margin-left: 7%;
+				
 				#image {
 					display: inline;
 				}
 				#photos {
 					display: none;
 				}
+				#home, #about, #gallery, #image, #contacts{
+					font-size: 3vw;
+				}
 			}
 		}
 		
 		hgroup{
 			float: left;
-			margin-top: 75%;
+			margin-top: 85%;
 		}
 	}
 	main{
@@ -122,10 +211,10 @@ footer {
 			}
 				article{
 					p{
-						font-size: 2vw;
+						font-size: 3vw;
 					}
 					h1{
-						font-size: 3vw;
+						font-size: 4vw;
 					}
 					#hide {
 						display: inline;
@@ -166,6 +255,16 @@ footer {
 					}
 				}
 			
+		}
+	}
+	footer{
+		.foot{
+			a,p {
+				font-size: 3.3vw;
+			}
+			h2{
+				font-size: 3.8vw;
+			}
 		}
 	}
 }

@@ -16,7 +16,8 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: right center; }
+  background-position: right center;
+  display: flex; }
   header #logmenu {
     width: 10%;
     height: 100%;
@@ -63,8 +64,8 @@ header {
     width: 80%;
     height: 19%;
     float: right;
-    margin-top: 30%;
-    font-family: 'Petit Formal Script', cursive; }
+    font-family: 'Petit Formal Script', cursive;
+    align-self: flex-end; }
   header h1 {
     color: white;
     font-size: 60px; }

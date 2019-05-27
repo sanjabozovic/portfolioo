@@ -1,44 +1,62 @@
+@media screen and (max-width: 992px) {
+  header {
+    display: flex; }
+    header hgroup {
+      margin-top: 52%;
+      width: 100%;
+      align-self: flex-end; }
+
+  main section #hidephone #pht {
+    display: none; }
+  main section article {
+    border-left: 1px solid #ffac00;
+    border-right: 1px solid #ffac00;
+    border-radius: 5px; } }
 @media screen and (max-width: 768px) {
-  header #logmenu #logo {
-    position: static; }
-  header #logmenu nav {
-    height: 60%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around; }
-    header #logmenu nav a {
-      text-decoration: none;
-      color: #ffac00;
-      font-size: 2.3vw;
-      left: 0px;
-      transition: none;
-      border-radius: 0; }
-      header #logmenu nav a #icon, header #logmenu nav a #icon1, header #logmenu nav a #icon2, header #logmenu nav a #icon3 {
-        display: none; }
-    header #logmenu nav #home, header #logmenu nav #about, header #logmenu nav #gallery, header #logmenu nav #image, header #logmenu nav #contacts {
-      background-color: transparent; }
-      header #logmenu nav #home:hover, header #logmenu nav #about:hover, header #logmenu nav #gallery:hover, header #logmenu nav #image:hover, header #logmenu nav #contacts:hover {
-        background-color: rgba(218, 223, 225, 0.2); }
-  header hgroup {
-    background-color: rgba(250, 250, 250, 0.2);
-    width: 100%;
-    margin-top: 55%;
-    padding-left: 13%; }
-    header hgroup h1 {
-      font-size: 30px; }
-    header hgroup h3 {
-      font-size: 15px; }
+  header {
+    display: block; }
+    header #logmenu #logo {
+      position: static; }
+    header #logmenu nav {
+      height: 60%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around; }
+      header #logmenu nav a {
+        text-decoration: none;
+        color: #ffac00;
+        font-size: 2.3vw;
+        left: 0px;
+        transition: none;
+        border-radius: 0; }
+        header #logmenu nav a #icon, header #logmenu nav a #icon1, header #logmenu nav a #icon2, header #logmenu nav a #icon3 {
+          display: none; }
+      header #logmenu nav #home, header #logmenu nav #about, header #logmenu nav #gallery, header #logmenu nav #image, header #logmenu nav #contacts {
+        background-color: transparent; }
+        header #logmenu nav #home:hover, header #logmenu nav #about:hover, header #logmenu nav #gallery:hover, header #logmenu nav #image:hover, header #logmenu nav #contacts:hover {
+          background-color: rgba(218, 223, 225, 0.2); }
+    header hgroup {
+      background-color: rgba(250, 250, 250, 0.2);
+      width: 100%;
+      margin-top: 55%;
+      padding-left: 13%; }
+      header hgroup h1 {
+        font-size: 30px; }
+      header hgroup h3 {
+        font-size: 15px; }
 
   main section {
     width: 75%; }
-    main section article #pht {
-      display: none; }
-    main section article h1 {
-      font-size: 2.5vw; }
-    main section article #pht1 {
-      display: inline; }
-    main section article p {
-      font-size: 1.6vw; } }
+    main section article {
+      border: none; }
+      main section article #pht {
+        display: none; }
+      main section article h1 {
+        font-size: 2.5vw; }
+      main section article #pht1 {
+        display: inline; }
+      main section article p {
+        font-size: 1.6vw; } }
 footer .foot {
   margin-left: 5%; }
   footer .foot h2 {
@@ -46,24 +64,46 @@ footer .foot {
   footer .foot a, footer .foot p {
     font-size: 1.8vw; }
 
+@media screen and (max-width: 650px) {
+  header hgroup {
+    margin-top: 70%; }
+  header #logmenu nav a {
+    font-size: 2.5vw; }
+
+  main section #hidephone figure .hide650 {
+    display: none; }
+  main section article p {
+    font-size: 2vw; }
+  main section article #message input[type=text], main section article #message input[type=email] {
+    width: 45%; }
+
+  footer .foot a, footer .foot p {
+    font-size: 2.3vw; }
+  footer .foot h2 {
+    font-size: 2.8vw; } }
 @media screen and (max-width: 480px) {
   header #logmenu {
     float: right;
-    margin-right: 7%; }
-    header #logmenu nav #image {
-      display: inline; }
-    header #logmenu nav #photos {
-      display: none; }
+    margin-right: 7%;
+    width: 18%; }
+    header #logmenu nav {
+      margin-left: 7%; }
+      header #logmenu nav #image {
+        display: inline; }
+      header #logmenu nav #photos {
+        display: none; }
+      header #logmenu nav #home, header #logmenu nav #about, header #logmenu nav #gallery, header #logmenu nav #image, header #logmenu nav #contacts {
+        font-size: 3vw; }
   header hgroup {
     float: left;
-    margin-top: 75%; }
+    margin-top: 85%; }
 
   main section #hidephone {
     display: none; }
   main section article p {
-    font-size: 2vw; }
-  main section article h1 {
     font-size: 3vw; }
+  main section article h1 {
+    font-size: 4vw; }
   main section article #hide {
     display: inline; }
   main section article #showphone {
@@ -88,6 +128,11 @@ footer .foot {
     font-size: 2vw;
     width: 97%; }
   main section article #message button {
-    font-size: 2.3vw; } }
+    font-size: 2.3vw; }
+
+  footer .foot a, footer .foot p {
+    font-size: 3.3vw; }
+  footer .foot h2 {
+    font-size: 3.8vw; } }
 
 /*# sourceMappingURL=responsive.css.map */

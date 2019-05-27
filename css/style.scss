@@ -19,6 +19,7 @@ header {
 	 background-repeat: no-repeat;
 	 background-attachment: fixed;
 	 background-position: right center;
+	 display: flex;
 	 
 	 #logmenu {
 		width: 10%;
@@ -88,8 +89,8 @@ header {
 		width: 80%;
 		height: 19%;
 		float: right;
-		margin-top: 30%;
 		font-family: 'Petit Formal Script', cursive;
+		align-self: flex-end;
 	 }
 	 
 	 h1{
