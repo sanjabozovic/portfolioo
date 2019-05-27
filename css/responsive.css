@@ -143,8 +143,9 @@ footer .foot {
       main section article #message input[type=text], main section article #message input[type=email] {
         height: 35px;
         font-size: 3.8vw;
-        width: 40%;
-        padding-left: 1%; }
+        width: 97%;
+        padding-left: 1%;
+        margin-top: 15px; }
       main section article #message textarea {
         font-size: 3.8vw;
         width: 97%;
