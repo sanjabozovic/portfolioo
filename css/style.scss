@@ -10,7 +10,6 @@
 html{
 	scroll-behavior: smooth;
 }
-
 header {
 	 width: 100%;
 	 min-height: 620px;
@@ -35,7 +34,11 @@ header {
 			margin: 0.2%;
 			position: fixed;
 			}
-	 
+		
+		#logo1{
+			display: none;
+		}
+		
 		 nav{
 		 
 			position: fixed;
@@ -130,6 +133,10 @@ main {
 			}
 			
 			#pht1 {
+				display: none;
+			}
+			
+			#showforphone{
 				display: none;
 			}
 			

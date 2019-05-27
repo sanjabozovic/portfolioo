@@ -30,6 +30,8 @@ header {
     header #logmenu #logo {
       margin: 0.2%;
       position: fixed; }
+    header #logmenu #logo1 {
+      display: none; }
     header #logmenu nav {
       position: fixed; }
       header #logmenu nav a {
@@ -91,6 +93,8 @@ main {
         background-color: #ffac00;
         border-radius: 5px; }
       main section article #pht1 {
+        display: none; }
+      main section article #showforphone {
         display: none; }
       main section article img {
         margin-top: 10px;

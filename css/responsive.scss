@@ -44,7 +44,8 @@
 			
 			
 		 
-			a {text-decoration: none;
+			a {
+			text-decoration: none;
 			color: #ffac00;
 			font-size: 2.3vw;
 			left: 0px;
@@ -178,14 +179,14 @@ footer {
 
 @media screen and (max-width: 480px) {
 	header{
+		
 		background-image: url(../photos/slider1.jpg);
 		#logmenu{
 			float: right;
 			margin-right: 9%;
 			width: 18%;
 			nav{
-			
-				margin-left: 18%;
+				margin-left: 9%;
 				
 				#image {
 					display: inline;
@@ -193,16 +194,18 @@ footer {
 				#photos {
 					display: none;
 				}
-				#home, #about, #gallery, #image, #contacts{
-					font-size: 3vw;
+				a{
+					font-size: 4vw;
 					float: right;
 					padding-left: 0;
-					width: 90%;
-					
-					&:hover{
-						background-color: transparent;
-					}
 				}
+			}
+			#logo {
+				display: none;
+			}
+			#logo1{
+				display: inline-block;
+				margin-left: 5px;
 			}
 		}
 		
@@ -213,16 +216,31 @@ footer {
 		}
 	}
 	main{
+		justify-content: initial;
+		padding-left: 2%;
+	
 		section{
+		
+			width: 75%;
+			
 			#hidephone{
 				display: none;
 			}
 				article{
+				
+			#hidefromphone{
+				display: none;
+			}
+			
+			#showforphone{
+				display: inline-block;
+			}
+					
 					p{
-						font-size: 3vw;
+						font-size: 3.5vw;
 					}
 					h1{
-						font-size: 4vw;
+						font-size: 4.3vw;
 					}
 					#hide {
 						display: inline;
@@ -250,16 +268,19 @@ footer {
 					
 					#message {
 						input[type=text], input[type=email] {
-							height: 25px;
-							font-size: 1.8vw;
+							height: 35px;
+							font-size: 3.8vw;
 							width: 40%;
+							padding-left: 1%;
 						} 
 						textarea{
-							font-size: 2vw;
+							font-size: 3.8vw;
 							width: 97%;
+							padding-left: 1%;
 						}
 						button {
-							font-size: 2.3vw;
+							font-size: 3.5vw;
+							width: 18%;
 						}
 					}
 				}
@@ -274,6 +295,8 @@ footer {
 		.foot{
 		
 			flex-direction: row;
+			margin-left: 0;
+			margin-right: 15%;
 			
 			a,p {
 				font-size: 2.8vw;

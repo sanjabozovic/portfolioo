@@ -89,61 +89,77 @@ footer .foot {
       margin-right: 9%;
       width: 18%; }
       header #logmenu nav {
-        margin-left: 18%; }
+        margin-left: 9%; }
         header #logmenu nav #image {
           display: inline; }
         header #logmenu nav #photos {
           display: none; }
-        header #logmenu nav #home, header #logmenu nav #about, header #logmenu nav #gallery, header #logmenu nav #image, header #logmenu nav #contacts {
-          font-size: 3vw;
+        header #logmenu nav a {
+          font-size: 4vw;
           float: right;
-          padding-left: 0;
-          width: 90%; }
-          header #logmenu nav #home:hover, header #logmenu nav #about:hover, header #logmenu nav #gallery:hover, header #logmenu nav #image:hover, header #logmenu nav #contacts:hover {
-            background-color: transparent; }
+          padding-left: 0; }
+      header #logmenu #logo {
+        display: none; }
+      header #logmenu #logo1 {
+        display: inline-block;
+        margin-left: 5px; }
     header hgroup {
       float: left;
       margin-top: 98%;
       padding-left: 2%; }
 
-  main section #hidephone {
-    display: none; }
-  main section article p {
-    font-size: 3vw; }
-  main section article h1 {
-    font-size: 4vw; }
-  main section article #hide {
-    display: inline; }
-  main section article #showphone {
-    display: flex;
-    justify-content: space-around; }
-    main section article #showphone .slide {
-      display: none; }
-    main section article #showphone #left, main section article #showphone #right {
-      width: 10%;
-      background-color: #141510;
-      cursor: pointer;
-      border: none;
-      color: white;
-      border-radius: 5px;
-      font-size: 5vw; }
-      main section article #showphone #left:hover, main section article #showphone #right:hover {
-        border: 1px solid #ffac00; }
-  main section article #message input[type=text], main section article #message input[type=email] {
-    height: 25px;
-    font-size: 1.8vw;
-    width: 40%; }
-  main section article #message textarea {
-    font-size: 2vw;
-    width: 97%; }
-  main section article #message button {
-    font-size: 2.3vw; }
+  main {
+    justify-content: initial;
+    padding-left: 2%; }
+    main section {
+      width: 75%; }
+      main section #hidephone {
+        display: none; }
+      main section article #hidefromphone {
+        display: none; }
+      main section article #showforphone {
+        display: inline-block; }
+      main section article p {
+        font-size: 3.5vw; }
+      main section article h1 {
+        font-size: 4.3vw; }
+      main section article #hide {
+        display: inline; }
+      main section article #showphone {
+        display: flex;
+        justify-content: space-around; }
+        main section article #showphone .slide {
+          display: none; }
+        main section article #showphone #left, main section article #showphone #right {
+          width: 10%;
+          background-color: #141510;
+          cursor: pointer;
+          border: none;
+          color: white;
+          border-radius: 5px;
+          font-size: 5vw; }
+          main section article #showphone #left:hover, main section article #showphone #right:hover {
+            border: 1px solid #ffac00; }
+      main section article #message input[type=text], main section article #message input[type=email] {
+        height: 35px;
+        font-size: 3.8vw;
+        width: 40%;
+        padding-left: 1%; }
+      main section article #message textarea {
+        font-size: 3.8vw;
+        width: 97%;
+        padding-left: 1%; }
+      main section article #message button {
+        font-size: 3.5vw;
+        width: 18%; }
 
   footer {
     text-align: justify;
     flex-direction: column; }
     footer .foot {
-      flex-direction: row; }
+      flex-direction: row;
+      margin-left: 0;
+      margin-right: 15%; }
       footer .foot a, footer .foot p {
         font-size: 2.8vw; }
       footer .foot h2 {
