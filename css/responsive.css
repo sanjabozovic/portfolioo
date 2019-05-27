@@ -82,26 +82,29 @@ footer .foot {
   footer .foot h2 {
     font-size: 2.8vw; } }
 @media screen and (max-width: 480px) {
-  header #logmenu {
-    float: right;
-    margin-right: 9%;
-    width: 18%; }
-    header #logmenu nav {
-      margin-left: 18%; }
-      header #logmenu nav #image {
-        display: inline; }
-      header #logmenu nav #photos {
-        display: none; }
-      header #logmenu nav #home, header #logmenu nav #about, header #logmenu nav #gallery, header #logmenu nav #image, header #logmenu nav #contacts {
-        font-size: 3vw;
-        float: right;
-        padding-left: 0;
-        width: 90%; }
-        header #logmenu nav #home:hover, header #logmenu nav #about:hover, header #logmenu nav #gallery:hover, header #logmenu nav #image:hover, header #logmenu nav #contacts:hover {
-          background-color: transparent; }
-  header hgroup {
-    float: left;
-    margin-top: 95%; }
+  header {
+    background-image: url(../photos/slider1.jpg); }
+    header #logmenu {
+      float: right;
+      margin-right: 9%;
+      width: 18%; }
+      header #logmenu nav {
+        margin-left: 18%; }
+        header #logmenu nav #image {
+          display: inline; }
+        header #logmenu nav #photos {
+          display: none; }
+        header #logmenu nav #home, header #logmenu nav #about, header #logmenu nav #gallery, header #logmenu nav #image, header #logmenu nav #contacts {
+          font-size: 3vw;
+          float: right;
+          padding-left: 0;
+          width: 90%; }
+          header #logmenu nav #home:hover, header #logmenu nav #about:hover, header #logmenu nav #gallery:hover, header #logmenu nav #image:hover, header #logmenu nav #contacts:hover {
+            background-color: transparent; }
+    header hgroup {
+      float: left;
+      margin-top: 95%;
+      padding-left: 30%; }
 
   main section #hidephone {
     display: none; }
@@ -128,16 +131,24 @@ footer .foot {
         border: 1px solid #ffac00; }
   main section article #message input[type=text], main section article #message input[type=email] {
     height: 25px;
-    font-size: 1.8vw; }
+    font-size: 1.8vw;
+    width: 40%; }
   main section article #message textarea {
     font-size: 2vw;
     width: 97%; }
   main section article #message button {
     font-size: 2.3vw; }
 
-  footer .foot a, footer .foot p {
-    font-size: 3.3vw; }
-  footer .foot h2 {
-    font-size: 3.8vw; } }
+  footer {
+    text-align: justify;
+    flex-direction: column; }
+    footer .foot {
+      flex-direction: row; }
+      footer .foot a, footer .foot p {
+        font-size: 2.8vw; }
+      footer .foot h2 {
+        font-size: 3.2vw; }
+      footer .foot .hide480 {
+        display: none; } }
 
 /*# sourceMappingURL=responsive.css.map */

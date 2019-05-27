@@ -178,6 +178,7 @@ footer {
 
 @media screen and (max-width: 480px) {
 	header{
+		background-image: url(../photos/slider1.jpg);
 		#logmenu{
 			float: right;
 			margin-right: 9%;
@@ -208,6 +209,7 @@ footer {
 		hgroup{
 			float: left;
 			margin-top: 95%;
+			padding-left: 30%;
 		}
 	}
 	main{
@@ -250,6 +252,7 @@ footer {
 						input[type=text], input[type=email] {
 							height: 25px;
 							font-size: 1.8vw;
+							width: 40%;
 						} 
 						textarea{
 							font-size: 2vw;
@@ -264,12 +267,22 @@ footer {
 		}
 	}
 	footer{
+	
+		text-align: justify;
+		flex-direction: column;
+	
 		.foot{
+		
+			flex-direction: row;
+			
 			a,p {
-				font-size: 3.3vw;
+				font-size: 2.8vw;
 			}
 			h2{
-				font-size: 3.8vw;
+				font-size: 3.2vw;
+			}
+			.hide480{
+				display: none;
 			}
 		}
 	}
