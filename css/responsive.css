@@ -46,7 +46,7 @@ footer .foot {
   footer .foot a, footer .foot p {
     font-size: 1.8vw; }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
   header #logmenu {
     float: right;
     margin-right: 7%; }
