@@ -180,12 +180,11 @@ footer {
 	header{
 		#logmenu{
 			float: right;
-			margin-right: 7%;
+			margin-right: 9%;
 			width: 18%;
-			
 			nav{
 			
-				margin-left: 7%;
+				margin-left: 18%;
 				
 				#image {
 					display: inline;
@@ -195,13 +194,20 @@ footer {
 				}
 				#home, #about, #gallery, #image, #contacts{
 					font-size: 3vw;
+					float: right;
+					padding-left: 0;
+					width: 90%;
+					
+					&:hover{
+						background-color: transparent;
+					}
 				}
 			}
 		}
 		
 		hgroup{
 			float: left;
-			margin-top: 85%;
+			margin-top: 95%;
 		}
 	}
 	main{

@@ -84,19 +84,24 @@ footer .foot {
 @media screen and (max-width: 480px) {
   header #logmenu {
     float: right;
-    margin-right: 7%;
+    margin-right: 9%;
     width: 18%; }
     header #logmenu nav {
-      margin-left: 7%; }
+      margin-left: 18%; }
       header #logmenu nav #image {
         display: inline; }
       header #logmenu nav #photos {
         display: none; }
       header #logmenu nav #home, header #logmenu nav #about, header #logmenu nav #gallery, header #logmenu nav #image, header #logmenu nav #contacts {
-        font-size: 3vw; }
+        font-size: 3vw;
+        float: right;
+        padding-left: 0;
+        width: 90%; }
+        header #logmenu nav #home:hover, header #logmenu nav #about:hover, header #logmenu nav #gallery:hover, header #logmenu nav #image:hover, header #logmenu nav #contacts:hover {
+          background-color: transparent; }
   header hgroup {
     float: left;
-    margin-top: 85%; }
+    margin-top: 95%; }
 
   main section #hidephone {
     display: none; }
