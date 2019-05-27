@@ -12,7 +12,7 @@
     border-left: 1px solid #ffac00;
     border-right: 1px solid #ffac00;
     border-radius: 5px; } }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   header {
     display: block; }
     header #logmenu #logo {
@@ -60,9 +60,9 @@
 footer .foot {
   margin-left: 5%; }
   footer .foot h2 {
-    font-size: 1.8vw; }
-  footer .foot a, footer .foot p {
     font-size: 1.7vw; }
+  footer .foot a, footer .foot p {
+    font-size: 1.6vw; }
 
 @media screen and (max-width: 650px) {
   header hgroup {
